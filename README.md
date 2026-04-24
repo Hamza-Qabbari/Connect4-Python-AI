@@ -32,7 +32,9 @@ Since the game rarely reaches a terminal state (win/loss/draw) within the search
 ###  Performance Insights & Optimization
 
 <img width="854" height="533" alt="Screenshot from 2026-04-24 16-16-26" src="https://github.com/user-attachments/assets/125afe6b-f0b9-49f4-8c98-e60862b03f9f" />
+
 <br><br>
+
 1. **Computational Efficiency:** Integrating Alpha-Beta Pruning dropped the number of evaluated nodes exponentially compared to the brute-force Minimax approach.
 2. **Dynamic Difficulty:** The AI's strength is fully adjustable. Users can input the desired "Search Depth" at the start of the game, directly controlling how many steps ahead the AI predicts.
 

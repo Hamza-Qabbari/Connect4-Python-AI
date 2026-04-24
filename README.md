@@ -7,7 +7,7 @@ The project encompasses the core game logic, a custom heuristic evaluation funct
 
 ---
 
-### 📱 The Interactive Game Environment (GUI)
+###  The Interactive Game Environment (GUI)
 We developed a user-friendly graphical interface using **Pygame** to visualize the board state, handle user mouse inputs smoothly, and display real-time feedback when the AI is calculating its next move.
 
 https://github.com/user-attachments/assets/80186667-1db8-47ba-a537-90f274bd7865
@@ -29,9 +29,10 @@ Since the game rarely reaches a terminal state (win/loss/draw) within the search
 
 ---
 
-### 🚀 Performance Insights & Optimization
+###  Performance Insights & Optimization
 
 <img width="854" height="533" alt="Screenshot from 2026-04-24 16-16-26" src="https://github.com/user-attachments/assets/125afe6b-f0b9-49f4-8c98-e60862b03f9f" />
+
 
 1. **Computational Efficiency:** Integrating Alpha-Beta Pruning dropped the number of evaluated nodes exponentially compared to the brute-force Minimax approach.
 2. **Dynamic Difficulty:** The AI's strength is fully adjustable. Users can input the desired "Search Depth" at the start of the game, directly controlling how many steps ahead the AI predicts.
@@ -48,37 +49,26 @@ Since the game rarely reaches a terminal state (win/loss/draw) within the search
 ---
 
 
-### ⚙️ How to Run Locally
+⚙️ How to Run Locally
+Run the following commands in your terminal to set up and play the game:
 
-
-
-Run the following commands in your terminal to set up and play the game:1. **Clone the repository:**
-
-   ```bash
-
-   git clone [https://github.com/Hamza-Qabbari/Connect4-Python-AI.git](https://github.com/Hamza-Qabbari/Connect4-Python-AI.git)
-
-Navigate to the project directory:
-
-Bash
-
-
-
-cd Connect4-Python-AI
-
-Install the required dependencies:
-
-Bash
-
-
-
-pip install numpy pygame
-
-Run the game:
-
-Bash
-
-
-
-python connect4.py
-
+1. Clone the repository:
+   
+   ```
+   git clone https://github.com/Hamza-Qabbari/Connect4-Python-AI.git
+   ```
+3. Navigate to the project directory:
+   
+   ```
+   cd Connect4-Python-AI
+   ```
+5. Install the required dependencies:
+   
+   ```
+   pip install numpy pygame
+   ```
+7. Run the game:
+   
+   ```
+   python connect4.py
+   ```
